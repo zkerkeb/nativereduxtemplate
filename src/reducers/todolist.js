@@ -30,6 +30,8 @@ const deleteTodoReducer = (state, id) => {
   // je le retire de la liste
   newTodos.splice(indexOfTodo, 1);
   console.log(newTodos);
+  // on return la meme chose que pour le addTodo, sauf que cette fois si , on
+  // return la state qui n'a plus l'element suprimé (newTodos)
   return {
     ...state,
     value: newTodos,

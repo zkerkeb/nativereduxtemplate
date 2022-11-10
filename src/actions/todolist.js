@@ -14,6 +14,7 @@ export const addTodo = payload => ({
   payload,
 });
 
+// meme chose que pour le add, mais cette fois si pour le delete
 export const deleteTodo = payload => ({
   type: DELETE_TODO,
   payload,
