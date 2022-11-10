@@ -4,8 +4,9 @@ export const INCREMENT_COUNTER = 'INCREMENT_COUNTER';
 // on definit et nomme nos actions
 
 // le ({}) veut dire que la fonction redux retournera un objet directement
-export const incrementCounter = () => ({
+export const incrementCounter = (payload = 1) => ({
   type: INCREMENT_COUNTER,
+  payload,
 });
 // est egale a
 // export const incrementCounterExemple = () => {

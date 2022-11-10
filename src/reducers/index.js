@@ -2,7 +2,9 @@
 import {combineReducers} from 'redux';
 
 import counter from './counter';
+import harryPotter from './harryPotter';
 
 export default combineReducers({
   counter,
+  harryPotter,
 });
